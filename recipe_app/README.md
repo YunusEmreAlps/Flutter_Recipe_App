@@ -8,7 +8,7 @@
   <h3 align="center">Recipe Book</h3>
 
   <p align="center">
-    E-Book Reader App
+    Recipe Book App
     <br />
     <a href="https://github.com/YunusEmreAlps/Flutter_Recipe_App">Download</a>
     ·
@@ -50,10 +50,8 @@
 Recipe Book app design by flutter, at home page it shows you some foods, also the food of the day. At the bottom you gonna find popular foods. On details page food info with it's chapters. 
 
 - Meet your new cooking coach!
--  Get step-by-step instructions on how to cook every single recipe.
+- Get step-by-step instructions on how to cook every single recipe.
 - Also work on both landscape and portrait mood
-
-
 - [ ] ADD RECIPES QUICKLY AND EASILY
 - [ ] SCAN FROM COOKBOOKS, MAGAZINES AND HANDWRITTEN RECIPES (all-in-one recipe organizer)
 - [ ] MAKE SHOPPING SIMPLER (shopping list)
