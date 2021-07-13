@@ -70,6 +70,33 @@ class Detail extends StatelessWidget {
                           ),
                         ),
                       ),
+                      SizedBox(
+                        width: 8,
+                      ),
+                      Container(
+                        padding: EdgeInsets.all(6),
+                        decoration: BoxDecoration(
+                          color: kPrimaryColor,
+                          borderRadius: BorderRadius.circular(5),
+                        ),
+                        child: RichText(
+                          text: TextSpan(
+                            children: [
+                              WidgetSpan(
+                                child: Icon(Icons.group, size: 16, color: Colors.white),
+                              ),
+                              TextSpan(
+                                text: " Serves "+ recipe.serves.toString(),
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ],
@@ -178,7 +205,6 @@ class Detail extends StatelessWidget {
       throw 'Could not launch $url';
     }
   }
-
 
   Widget buildNutrition(int value, String title, String subTitle) {
     return Container(
