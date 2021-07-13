@@ -49,9 +49,9 @@
 ## About The Project
 Recipe Book app design by flutter, at home page it shows you some foods, also the food of the day. At the bottom you gonna find popular foods. On details page food info with it's chapters. 
 
-- Meet your new cooking coach!
-- Get step-by-step instructions on how to cook every single recipe.
-- Also work on both landscape and portrait mood
+- [x] Meet your new cooking coach!
+- [x] Get step-by-step instructions on how to cook every single recipe.
+- [x] Also work on both landscape and portrait mood
 - [ ] ADD RECIPES QUICKLY AND EASILY
 - [ ] SCAN FROM COOKBOOKS, MAGAZINES AND HANDWRITTEN RECIPES (all-in-one recipe organizer)
 - [ ] MAKE SHOPPING SIMPLER (shopping list)
